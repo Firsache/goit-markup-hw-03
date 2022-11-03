@@ -15,7 +15,7 @@
   --dark-background-color: #2f303a;
   --logo-black: #000000;
   --header-border: #ececec;
-  --portfolio-border:1px solid #EEEEEE;
+  --portfolio-border: 1px solid #eeeeee;
 }
 body {
   background-color: var(--primary-white-color);
@@ -45,7 +45,7 @@ body {
 /* Header */
 .container.header {
   display: flex;
-  align-items: center;  
+  align-items: center;
 }
 .page-header {
   border-bottom: 1px solid var(--header-border);
