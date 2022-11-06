@@ -62,9 +62,11 @@ body {
   color: var(--accent-color);
 }
 /* Site nav */
-.site-nav {
-  display: flex;
+.nav{
   margin-left: 93px;
+}
+.site-nav {
+  display: flex;  
 }
 .site-nav .item:not(:last-child) {
   margin-right: 50px;
@@ -193,6 +195,9 @@ body {
   line-height: 1.71;
   margin-top: 10px;
   margin-bottom: 0;
+}
+.feature-item{
+  flex-basis: calc((100% - 3*30px)/4);
 }
 .feature-item:not(:last-child) {
   margin-right: 30px;
